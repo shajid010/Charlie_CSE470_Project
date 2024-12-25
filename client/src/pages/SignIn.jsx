@@ -80,6 +80,6 @@ export default function SignIn() {
         </Link>
       </div>
       {error && <p className="text-red-500 mt-5">{error}</p>}
-    </div>
+    </div >
   );
 }
